@@ -1,0 +1,91 @@
+body {
+	background-color: #FFEFDB;
+}
+
+.container {
+	width: 700px;
+	font-family: Ubuntu;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+.user-information {
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+}
+
+.user-information__block1 {
+	background-color:	rgba(75, 75, 75, 0.95);
+	width: 40%;
+}
+
+.user-information__block2 {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+.user-information__block2_text {
+	margin: 12px;
+	padding: 6px;
+	margin-top: 0;
+}
+
+.user-information__block2_text_retreat {
+	margin-bottom: 0;
+}
+
+.user-information__block1_foto {
+	width: 130px;
+	margin-left: 62px;
+	margin-top: 50px;
+}
+
+.user-information__block1_text {
+		text-align: center;
+}
+
+
+.user-information__block1_text_name {
+	margin-bottom: 0;
+	color: #EEE5DE;
+	
+}
+
+.user-information__block1_email {
+	color: #EEE5DE;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.typing {
+	background-color: #EEE5DE;
+	display: flex;
+	justify-content: space-between;
+}
+
+.typing__foto {
+	width: 8%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.typing__text {
+	color: #AAA;
+	width: 90%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #AAA;
+	/*padding: 5px;*/
+}
+
+.typing__text_retreat {
+	margin-bottom: 4px;
+}
+
+.user-information__block2_text_color {
+	color: #AAA;
+}
